@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+}
+
+
+#header {
+    max-width: 100%;
+    height: 25%;
+    background-color: #3944e4;
+}
+
+#header #logo {
+
+    float: left;
+    width: 75%;
+    background: rgba(255, 38, 0, 0.897);
+    color: #fff;
+    text-align: center;
+    height: 70px;
+    padding-top: 20px;
+}
+
+#header #logo img {
+
+    float: left;
+    width: 40%;
+    padding-left: 3%;
+
+}
+
+#pricipalcontent {
+    width: 100%;
+    background-color: white;
+    margin-top: 8%;
+
+}
+
+.datagrid table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+.datagrid2 table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.datagrid {
+    font: normal 12px/150% Geneva, Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 7px solid #fff;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+}
+
+.datagrid2 {
+    font: normal 12px/150% Geneva, Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 7px solid #fff;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+}
+
+.datagrid table td,
+.datagrid table th {
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.datagrid2 table td,
+.datagrid2 table th {
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.datagrid table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #9bb6c4));
+    background: -moz-linear-gradient(center top, #006699 5%, #9bb6c4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color: #006699;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    border-left: 0px solid #0070A8;
+    text-align: center;
+}
+.datagrid2 table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #df2e0f), color-stop(1, #f1f1f1));
+    background: -moz-linear-gradient(center top, #df2e0f 5%, #f1f1f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color: #006699;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    border-left: 0px solid #0070A8;
+    text-align: center;
+}
+
+.datagrid table thead th:first-child {
+    border: none;
+}
+.datagrid2 table thead th:first-child {
+    border: none;
+}
+
+.datagrid table tbody td {
+    color: #00557F;
+    border-left: 1px solid #E1EEF4;
+    font-size: 12px;
+    font-weight: normal;
+}
+.datagrid2 table tbody td {
+    color: #00557F;
+    border-left: 1px solid #E1EEF4;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.datagrid table tbody .alt td {
+    background: #E1EEf4;
+    color: #00557F;
+}
+.datagrid2 table tbody .alt td {
+    background: #E1EEf4;
+    color: #00557F;
+}
+
+.datagrid table tbody td:first-child {
+    border-left: none;
+}
+.datagrid2 table tbody td:first-child {
+    border-left: none;
+}
+
+.datagrid table tbody tr:last-child td {
+    border-bottom: none;
+}
+.datagrid2 table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.small-link {
+    font-size: 12px;
+  }
+  
+  .big-link {
+    font-size: 22px;
+   
+  }
+
+  .InfoLinks {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #9bb6c4));
+    background: -moz-linear-gradient(center top, #006699 5%, #9bb6c4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color: #006699;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    border-left: 0px solid #0070A8;
+    text-align: center;
+  }
+
+  .InfoFooter {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1b151b), color-stop(1, #9bb6c4));
+    background: -moz-linear-gradient(center top, #006699 5%, #9bb6c4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color: #006699;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 22px;
+    font-weight:lighter;
+    border-left: 0px solid #0070A8;
+    text-align:left;
+  }
+
+
